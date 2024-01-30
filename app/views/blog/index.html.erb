@@ -1,0 +1,8 @@
+<h1>Animal Blog</h1>
+<ul>
+  <% @blog_list.each do |blog|%>
+    <li>
+      Title: <%= blog.title %> Content: <%= blog.content %>
+    </li>
+  <% end %>
+</ul>
