@@ -8,12 +8,12 @@ class BlogController < ApplicationController
         #     redirect_to animal_path(@animal)
         # end
     end
-    # def create
-    #     @exercise = Exercise.create(exercise_params)
-    #     if @exercise.valid?
-    #       redirect_to exercises_path
-    #     end
-    #   end
+    def new
+        # @exercise = Exercise.create(exercise_params)
+        # if @exercise.valid?
+        #   redirect_to exercises_path
+        # end
+    end
       
     #   private
     #   def exercise_params
