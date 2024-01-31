@@ -13,4 +13,7 @@ Rails.application.routes.draw do
   get "/snakes", to:"blog#snakes"
   get "/racoons", to:"blog#racoons"
   get "index/:id", to:"blog#show", as: "animal"
+  get "/new", to:"blog#new", as: "new_blog"
+  # get "/new", to:"blog#new"
+
 end
