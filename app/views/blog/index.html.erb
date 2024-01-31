@@ -1,8 +1,8 @@
 <h1>Animal Blog</h1>
 <ul>
-  <% @blog_list.each do |blog|%>
+  <% @blog_list.each do |blog| %>
     <li>
-      Title: <%= blog.title %> Content: <%= blog.content %>
+      <%= link_to "Title: #{blog.title}  Content: #{blog.content}", animal_path(blog) %>
     </li>
   <% end %>
 </ul>
